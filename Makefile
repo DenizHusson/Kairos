@@ -5,7 +5,7 @@
 
 MAIN		= 		src/main.rs
 
-NAME   		=		Kairos
+NAME   		=		kairos
 
 CC 			= 		cargo build
 
