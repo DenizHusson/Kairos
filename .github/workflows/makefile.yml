@@ -12,5 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: checkout repository
+      uses: actions/checkout@main
     - name: Compiling the project
       run: make
